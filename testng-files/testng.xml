@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Chrome" allow-return-values="true">
+	<parameter name="environment" value="newtours.demoaut" />
+	<parameter name="browser" value="Chrome" />
+	<listeners>
+		<listener class-name="listeners.CustomListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+
+	<test name="FlightBooking">
+		<classes>
+			<class name="scripts.FlightBookingTest">
+				<methods>
+					<include name="testBookFlight" />
+				</methods>
+			</class>
+
+			<class name="scripts.RegisterTest">
+				<methods>
+					<include name="testRegister" />
+
+				</methods>
+			</class>
+
+			<class name="scripts.HomePageTest">
+				<methods>
+					<include name="testVerifyHeaderRegionLinks" />
+				</methods>
+			</class>
+
+			<class name="scripts.SignInTest">
+				<methods>
+					<include name="testSignInFromHomePage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

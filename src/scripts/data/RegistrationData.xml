@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<CONTACT_INFO>
+		<FIRST_NAME>Trupti</FIRST_NAME>
+		<LAST_NAME>Sharma</LAST_NAME>
+		<EMAIL>trupti12@gmail.com</EMAIL>
+		<PHONE>123456789</PHONE>
+	</CONTACT_INFO>
+
+	<MAILING_INFO>
+		<ADDRESS>Cunningham road</ADDRESS>
+		<CITY>Bangalore</CITY>
+		<STATE>Karnataka</STATE>
+		<POSTAL_CODE>560061</POSTAL_CODE>
+	</MAILING_INFO>
+
+	<USER_INFO>
+		<USER_NAME>Trupti12</USER_NAME>
+		<PASSWORD>Password1</PASSWORD>
+	</USER_INFO>
+
+
+</data>

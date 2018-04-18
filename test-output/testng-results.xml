@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[testSignInFromHomePage test case started]]>
+    </line>
+    <line>
+      <![CDATA[Loaded URL (<a href="http://newtours.demoaut.com/">http://newtours.demoaut.com/</a>)]]>
+    </line>
+    <line>
+      <![CDATA[Set User Name to Trupti12]]>
+    </line>
+    <line>
+      <![CDATA[Set Password to Password1]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Login button]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[The name of the testcase passed is :testSignInFromHomePage
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Chrome" duration-ms="50715" started-at="2017-11-16T08:46:40Z" finished-at="2017-11-16T08:47:30Z">
+    <groups>
+    </groups>
+    <test name="FlightBooking" duration-ms="50715" started-at="2017-11-16T08:46:40Z" finished-at="2017-11-16T08:47:30Z">
+      <class name="scripts.SignInTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:scripts.SignInTest@167bb934]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-16T14:16:40Z" finished-at="2017-11-16T14:16:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newtours.demoaut]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method, java.lang.String)[pri:0, instance:scripts.SignInTest@167bb934]" name="openBrowser" is-config="true" duration-ms="4101" started-at="2017-11-16T14:16:40Z" finished-at="2017-11-16T14:16:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.SignInTest.testSignInFromHomePage(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testSignInFromHomePage(java.lang.String, java.lang.String)[pri:0, instance:scripts.SignInTest@167bb934]" name="testSignInFromHomePage" duration-ms="45292" started-at="2017-11-16T14:16:44Z" data-provider="SignInData" finished-at="2017-11-16T14:17:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trupti12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testSignInFromHomePage test case started]]>
+            </line>
+            <line>
+              <![CDATA[Loaded URL (<a href="http://newtours.demoaut.com/">http://newtours.demoaut.com/</a>)]]>
+            </line>
+            <line>
+              <![CDATA[Set User Name to Trupti12]]>
+            </line>
+            <line>
+              <![CDATA[Set Password to Password1]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Login button]]>
+            </line>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[The name of the testcase passed is :testSignInFromHomePage
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignInFromHomePage -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:scripts.SignInTest@167bb934]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1307" started-at="2017-11-16T14:17:29Z" finished-at="2017-11-16T14:17:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignInFromHomePage status=SUCCESS method=SignInTest.testSignInFromHomePage(java.lang.String, java.lang.String)[pri:0, instance:scripts.SignInTest@167bb934] output=testSignInFromHomePage test case started]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- scripts.SignInTest -->
+    </test> <!-- FlightBooking -->
+  </suite> <!-- Chrome -->
+</testng-results>
